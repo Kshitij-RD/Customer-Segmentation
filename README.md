@@ -1,4 +1,4 @@
-Customer Segmentation - Unsupervised Learning Project
+#Customer Segmentation - Unsupervised Learning Project
 📌 Project Overview
 This project performs Customer Segmentation using unsupervised learning techniques on a marketing campaign dataset. The goal is to identify distinct customer "personas" based on demographics, purchasing behavior, and household structure. These clusters enable businesses to tailor marketing strategies, optimize product offerings, and improve customer retention.
 
