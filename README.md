@@ -1,18 +1,17 @@
 Customer Segmentation - Unsupervised Learning Project
 
 📌 Project Overview
+
 This project performs Customer Segmentation using unsupervised learning techniques on a marketing campaign dataset. The goal is to identify distinct customer "personas" based on demographics, purchasing behavior, and household structure. These clusters enable businesses to tailor marketing strategies, optimize product offerings, and improve customer retention.
 
 🛠️ Technologies & Libraries
 The project is implemented in Python using the following libraries:
-
 Data Manipulation: pandas, numpy
-
 Visualization: matplotlib, seaborn, yellowbrick
-
 Machine Learning: scikit-learn (KMeans, AgglomerativeClustering, PCA, StandardScaler)
 
 📂 Dataset & Features
+
 The analysis uses a dataset containing customer demographics, purchasing history, and campaign responses.
 
 Feature Engineering
@@ -34,21 +33,20 @@ Is_Parent: Binary flag indicating parenthood.
 Education: Segmented into Undergraduate, Graduate, and Postgraduate.
 
 ⚙️ Methodology
+
 Data Cleaning: Handling missing values and converting date formats.
-
 Preprocessing: Categorical encoding and standard scaling of data.
-
 Dimensionality Reduction: Using Principal Component Analysis (PCA) to reduce the dataset to 3 components for better visualization and noise reduction.
 
 Clustering:
 
 Used the Elbow Method to determine the optimal number of clusters.
-
 Applied Agglomerative Clustering to segment customers.
 
 Evaluation: Visualized clusters in 3D space and profiled them based on statistical means.
 
 📊 Results: Customer Clusters
+
 The analysis identified 4 distinct customer clusters, each requiring a unique marketing strategy:
 
 Cluster 0: The "Standard Family"
